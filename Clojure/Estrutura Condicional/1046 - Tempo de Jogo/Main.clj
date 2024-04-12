@@ -1,0 +1,5 @@
+(def a (read))
+(def b (read))
+(if (> b a)
+    (println (format "O JOGO DUROU %d HORA(S)"(- b a)))
+    (println (format "O JOGO DUROU %d HORA(S)"(+ (- 24 a) b))))

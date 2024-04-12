@@ -1,0 +1,1 @@
+(println (format "%.3f" (/ (read) (read)))"km/L")
